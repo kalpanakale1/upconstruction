@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upconstruction</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <style>
+        @import url(css/bootstrap-icons.css);
+        @import url(css/bootstrap.min.css);
+        @import url(css/all.min.css);
+        @import url(css/swiper-bundle.min.css);
+        @import url(css/animate.css);
+        @import url(css/animate.min.css);
+        @import url(css/media.css);
+        @import url(css/fonts.css);
+        @import url(css/style.css);
+    </style>
+</head>
+
+<body>
+    <div class="main-box position-sticky top-0 start-0 bottom-0">
+        <a href="#"><div class="loader"></div></a>
+    </div>
+
+    <header class="navbar navbar-expand-lg py-4 position-fixed w-100">
+        <div class="container-xl">
+                <a class="navbar-brand fs-4 fw-bold f-roboto text-white" href="#">UpConstruction<span
+                    class="text-primary">.</span></a>
+                <button class="navbar-toggler bg-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="nav-toggle">
+                    <ul class="navbar-nav show">
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase" href="services.html">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase active" href="projects.html">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase" href="blog.html">blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ps-3 fw-semibold fs-6 text-uppercase"
+                                data-bs-toggle="dropdown" href="#">dropdown</a>
+                            <ol class="dropdown-menu position-absolute list-unstyled">
+                                <li><a class="dropdown-item text-capitlize" href="#">dropdown 1</a></li>
+                                <li><a class="dropdown-item text-capitlize" href="#">deep dropdown</a></li>
+                                <li><a class="dropdown-item text-capitlize" href="#">dropdown 2</a></li>
+                                <li><a class="dropdown-item text-capitlize" href="#">dropdown 3</a></li>
+                                <li><a class="dropdown-item text-capitlize" href="#">dropdown 4</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 fw-semibold fs-6 text-uppercase" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <!-- banner section -->
+    <section class="about-banner pages">
+        <div class="about-img position-relative">
+            <img src="img/breadcrumbs-bg.jpg" alt="">
+            <div class="about-page position-absolute top-0 start-0 end-0 bottom-0">
+                <div class="content text-center my-5 padding-70">
+                    <p class="mt-2 text-white display-4 fw-semibold">Projects</p>
+                    <h6 class=" sub-text"><span><a class="text-decoration-none sub-text fs-6 fw-bold" href="index.html">Home</a></span> &nbsp; /  &nbsp; <span class="fs-6 fw-bold text-primary">projects</span></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Projects section -->
+    <section class="padding-70 projects">
+        <div class="container">
+            <div class="common-heading col-7 mx-auto text-center wow animate__animated animate__slideInUp">
+                <h4 class="fs-2 fw-bold position-relative f-roboto d-inline-block">Our Projects</h4>
+                <p class="t-secondary fs-6 mt-2">Consequatur libero assumenda est voluptatem est quidem illum et officia
+                    imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+            </div>
+            <div class="row mt-4">
+                <ul class="nav nav-tabs border-0 bg-transparent justify-content-center wow animate__animated animate__slideInUp">
+                    <li class="nav-item border-0">
+                        <button class="nav-link f-roboto border-0 fs-5 fw-semibold t-secondary active"
+                            data-bs-toggle="tab" data-bs-target="#tab-all">All</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link f-roboto fs-5 fw-semibold t-secondary border-0" data-bs-toggle="tab"
+                            data-bs-target="#tab-Remodeling">Remodeling</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link f-roboto fs-5 fw-semibold t-secondary border-0" data-bs-toggle="tab"
+                            data-bs-target="#tab-Construction">Construction</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link f-roboto border-0 fs-5 fw-semibold t-secondary " data-bs-toggle="tab"
+                            data-bs-target="#tab-Repairs">Repairs</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link f-roboto border-0 fs-5 fw-semibold t-secondary " data-bs-toggle="tab"
+                            data-bs-target="#tab-Design">Design</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content wow animate__animated animate__slideInUp animate_delay">
+                <!-- <div class="row"> -->
+                <div class="tab-pane fade show active" id="tab-all">
+                    <div class="row">
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Remodeling 1
+                                        </h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Construction 1</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Repairs 1</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Design 1</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Remodeling 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Construction 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Repairs 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        </p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Design 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        </p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Remodeling 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Construction 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Repairs 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Design 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <div class="tab-pane fade" id="tab-Remodeling">
+                    <div class="row justify-content-center">
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Remodeling 1
+                                        </h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit ame
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Remodeling 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- rm -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/remodeling-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Remodeling 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab-Construction">
+                    <div class="row justify-content-center">
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Construction
+                                            1</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Construction 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/construction-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Construction 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab-Repairs">
+                    <div class="row justify-content-center">
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Repairs 1
+                                        </h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Repairs 2
+                                        </h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        </p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- r -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/repairs-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Repairs 3
+                                        </h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="tab-Design">
+                    <div class="row justify-content-center">
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-1.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Design 1</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur</p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-2.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline">Design 2</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        </p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- d -->
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="mt-4">
+                                <div class="project-work position-relative">
+                                    <img class="img-fluid" src="img/design-3.jpg" alt="">
+                                    <div class="project-info h-100 w-100 p-4 top-0 position-absolute">
+                                        <h4 class="text-white bg-primary px-2 py-1 fs-6 d-inline f-roboto">Design 3</h4>
+                                        <p class="position-absolute fw-semibold text-center">Lorem ipsum dolor, sit amet
+                                            consectetur
+                                        <p>
+                                        <div class="p-icon position-absolute">
+                                            <a class="text-decoration-none text-white fs-4" href=""><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a class="text-decoration-none text-white ps-3 fs-2" href=""><i
+                                                    class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-bg top-0 start-0 end-0 bottom-0">
+            <div class="container padding-70">
+                <div class="row pb-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <a class="text-decoration-none text-white fs-4 fw-bold" href="index.html">UPCONSTRUCTION</a>
+                        <p class="fs-6 my-3">A108 Adam Street <br>
+                            NY 535022, USA</p>
+                        <a class="text-decoration-none text-white fs-6" href="tel:+1 5589 55488 55"><span class="fs-6 fw-bold">Phone:</span> +1 5589 55488 55</a> <br>
+                        <a class="text-decoration-none text-white fs-6" href="mailto:info@example.com"><span class="fs-6 fw-bold">Email:</span> info@example.com</a>
+                        <div class="social-media hstack mt-3">
+                            <a class="link text-decoration-none me-3 text-white bg-social rounded px-2 py-1 font-18" href="#"><i class="bi bi-twitter"></i></a>
+                            <a class="link text-decoration-none me-3 text-white bg-social rounded px-2 py-1 font-18" href="#"><i class="bi bi-facebook"></i></a>
+                            <a class="link text-decoration-none me-3 text-white bg-social rounded px-2 py-1 font-18" href="#"><i class="bi bi-instagram"></i></a>
+                            <a class="link text-decoration-none text-white bg-social rounded px-2 py-1 font-18" href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mt-md-0 col-lg-2">
+                        <h4 class="font-18 fw-bold">Useful Links</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class=""><a class="link-media text-decoration-none fs-6" href="#">Home</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">About us</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Services</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Terms of service</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mt-md-0 col-lg-2">
+                        <h4 class="font-18 fw-bold">Our Services</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class=""><a class="link-media text-decoration-none fs-6" href="#">Web Design</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Web Development</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Product Management</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Marketing</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mt-lg-0 col-lg-2">
+                        <h4 class="font-18 fw-bold">Hic solutasetp</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class=""><a class="link-media text-decoration-none fs-6" href="#">Molestiae accusamus iure</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Excepturi dignissimos</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Suscipit distinctio</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Dilecta</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Sit quas consectetur</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 mt-4 mt-lg-0 col-lg-2">
+                        <h4 class="font-18 fw-bold">Nobis illum</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class=""><a class="link-media text-decoration-none fs-6" href="#">Ipsam</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Laudantium dolorum</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Dinera</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Trodelas</a></li>
+                            <li class="pt-2"><a class="link-media text-decoration-none fs-6" href="#">Flexo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row text-center pt-3 fs-6 text-white">
+                    <p class="m-0 pb-1">© Copyright <span class="fw-semibold">UpConstruction.</span> All Rights Reserved</p> 
+                    <p>Designed by <a href="#" class="text-primary text-decoration-none">BootstrapMade</a> Distributed by <a href="#" class="text-primary text-decoration-none">ThemeWagon</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top-btn position-fixed bottom-0 end-0 m-3">
+        <a class="text-decoration-none rounded top py-1 px-2 fs-4" href="#"><i class="bi bi-arrow-up-short"></i></a>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 150) {
+                $("header").addClass("bg-light");
+                $(".back-to-top-btn").fadeIn("fixed")
+            }
+            else {
+                $("header").removeClass("bg-light")
+                $(".back-to-top-btn").fadeOut("fixed")
+            }
+        })
+
+
+        $(window).load(function(){
+            $(".main-box").fadeOut(1000)
+        })
+    </script>
+
+
+    <script>
+        new WOW().init();
+    </script>
+    
+</body>
+</html>
